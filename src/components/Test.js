@@ -114,7 +114,7 @@ export default function Test() {
                             })}
                         </div>
                         <input type="button" value="Next" id="next-button" onClick={changeQuestion} />
-                        <Button className='endTest' onClick={endHandler} variant="danger"><a href='/profile' style={{ textDecoration: "none", color: "#ffff" }}>End Test</a></Button>{' '}
+                        <Button className='endTest' onClick={endHandler} variant="danger"><Link to={'/profile'} style={{ textDecoration: "none", color: "#ffff" }}>End Test</Link></Button>{' '}
                     </>)}
             </div>
         </div>
