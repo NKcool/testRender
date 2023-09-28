@@ -33,6 +33,12 @@
   text-align: center;
 }
 
+@media screen and (max-width: 772px) {
+  .leaderBoard{
+    max-width: 80vw !important;
+  }
+}
+
 .jjjjj{
   display: flex;
   justify-content: center;

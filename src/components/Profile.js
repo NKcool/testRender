@@ -126,7 +126,6 @@ export default function Profile() {
                   {item.username} &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; score : 0{item.score}
                 </li>
               ))}
-
             </ol>
 
           </div>
